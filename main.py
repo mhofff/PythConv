@@ -1,16 +1,23 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('mhofff')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print() #это функция
+age = 26
+name = "bob"
+print('Возраст {0} -- {1} лет.'.format(name, age))
+print('Почему {0} забавляется с этим Python?'.format(name))
+#format это метод заменяющий числа в {} на аргументы, те {0} это format(name) == {name} число не обязательно
+i = 5
+print(i)
+i = i + 1
+print(i)
+print("mhofff"); print("zxc")
+print \
+    (i)
+i = 5
+print('Значение составляет ', i)
+print('Я повторяю, значение составляет ', i)
+i *= i
+print(i)
+a = 24
+b = 12
+c = 7
+a = b = c
+print(a) #7
