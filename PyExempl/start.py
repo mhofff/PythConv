@@ -21,3 +21,5 @@ b = 12
 c = 7
 a = b = c
 print(a) #7
+a,b = map(int,input().split())
+print(a,b)
