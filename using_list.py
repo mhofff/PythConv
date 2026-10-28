@@ -15,3 +15,4 @@ old_item = shop_list[0]
 del shop_list[0]
 print('Я купил', old_item)
 print('Теперь мой список покупок:', shop_list)
+print("hello")
